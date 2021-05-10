@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 120px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">URL Shortner</h2>
+        <div class="url-form">
+            <form action="/" method="POST">
+                <label for="url"></label>
+                <input type="text" class="url-input" name="url">
+                <button type="submit">Shorten</button>
+            </form>
+        </div>
+
+        <div class="shortened-url">
+            <p class="shortened-url"></p>
+        </div>
+    </div>
+</body>
+
+</html>
